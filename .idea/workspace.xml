@@ -2,36 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83982ab-b270-4a00-b4c5-e6b7fa5c9fa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/anime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/anime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-v3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/typed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/index/envirmantal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/index/erudite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/atlantis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/erudite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/analysisdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/bgmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/datamap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/draft1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/draft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/draft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/draft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/draft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/finalmotion.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/finalstatic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/motiond.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/rawdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/stakedatamap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/stakeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/tbsketch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/atlantis/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/duolingo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/erudite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/fl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/interviewee1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/interviewee2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/interviewee3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/jacky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/jill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/johns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/journeymap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/md1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/process.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/quora_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/scenrio1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/scenrio2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/scenrio3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/scenrio4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/test3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/projects/erudite/udemy_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/website/HanyuTang_resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/website/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/website/back-g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/website/back-w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/website/mypic.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,21 +70,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="60" column="91" lean-forward="true" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="447">
+              <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -65,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+            <state relative-caret-position="597">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -90,13 +108,15 @@
       <list>
         <option value="$PROJECT_DIR$/js/typed.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/pages/erudite.html" />
+        <option value="$PROJECT_DIR$/pages/atlantis.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
+    <option name="x" value="110" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
@@ -109,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,18 +155,24 @@
             <path>
               <item name="hanyutang-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="hanyutang-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hanyutang-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hanyutang-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hanyutang-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="hanyutang-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,13 +184,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/resources/index" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,24 +218,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551059941964</updated>
-      <workItem from="1551059943251" duration="10577000" />
+      <workItem from="1551059943251" duration="10904000" />
+      <workItem from="1551072823041" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10577000" />
+    <option name="totallyTimeSpent" value="11751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="23" width="1400" height="837" extended-state="0" />
+    <frame x="110" y="23" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -215,6 +240,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -240,24 +269,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="60" column="91" lean-forward="true" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/forms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/projects.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/erudite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/atlantis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+        <state relative-caret-position="597">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
         </state>
       </provider>
     </entry>

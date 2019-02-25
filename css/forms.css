@@ -1,0 +1,180 @@
+.form1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.form1>li{
+    display: inline-flex;
+    width: 98%;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 0.5rem 0 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.form1 .form-side{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.form1 .form-img{
+    display: block;
+    width: 8rem;
+    height: 8rem;
+}
+
+.form1 .form-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.form1 .form-side-intro{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.form1 h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.form1 h6{
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.form1 .form-main{
+    display: inline-block;
+    flex-grow: 1;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.form1 .form-main-top{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form1 .form-main-top>span{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    text-align: left;
+}
+
+.form1 .form-main-top>span:first-of-type{
+    float: left;
+}
+
+.form1 .form-main-bottom{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+}
+
+.form2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.form2 h6{
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.form2>li{
+    display: block;
+    width: 95%;
+    height: auto;
+    text-align: left;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.form2 .form-side{
+    display: inline-block;
+    float: left;
+    width: 23%;
+    height: 10rem;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}
+
+.form2>li:nth-of-type(2n) .form-side{
+    float: right;
+}
+
+.form2 .form-side img{
+    height: 100%;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.form2 .form-main{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    padding-left: 1rem;
+}
+
+.form2 .form-main li{
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.form2 .form-main li:nth-of-type(2n){
+    float: right;
+}
+
+.form2 .form-main li:nth-of-type(2n+1){
+    float: left;
+}
+
+.form3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.form3>li{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 1rem 0.8rem;
+    text-align: left;
+    box-shadow: #d8d8d8 0.2rem 0.2rem 0.2rem;
+    vertical-align: top;
+}
+.form3 h3{
+    display: block;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
