@@ -58,13 +58,12 @@
     margin-top: 3rem;
 }
 
-.col-5>div{
+.col>div{
     margin-top: 2rem;
 }
 
 
 .card{
-    height: 23rem;
     overflow: hidden;
     border: none;
     cursor: pointer;
@@ -126,16 +125,16 @@
 }
 
 footer>.navigation{
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-bottom: 5rem;
 }
 
 .copyright{
     display: inline-block;
     width: auto;
-    height: auto;
+    height: 100%;
     font-size: 0.7rem;
     margin-top: 1rem;
-    margin-left: 50rem;
+    margin-left: 10rem;
     font-family: 'Playfair Display', serif;
 }
