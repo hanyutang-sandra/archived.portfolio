@@ -1,428 +1,265 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    font-family: 'EB Garamond', serif;
-    font-size: 1rem;
-    font-weight: 200;
+.navigation-bar{
+    margin-top: 0.5rem;
+}
+.navigation{
+    margin-right: 5rem;
+    background-color: transparent;
+}
+
+.navbar-brand>i{
     color: black;
+    margin-left: 2rem;
 }
 
-h6{
-    font-family: 'EB Garamond', serif;
-    font-size: 1.1rem;
-    margin-top: 0.3rem;
-}
-
-html body{
-    height: 100%;
-    width: 100%;
-}
-
-.background{
-    display: block;
-    width: 100%;
-    height: 40rem;
-    position: fixed;
-    top: 0;
-    z-index: -100;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    filter: blur(0.1rem);
-}
-
-header{
-    display: block;
-    width: 100%;
-    height: 6rem;
-}
-
-.breadcrumb{
-    display: block;
-    float: right;
-    width: 30%;
-    height: 100%;
-    margin-right: 5rem;
-}
-
-header>.breadcrumb{
-    width: 100%;
-    margin-right: 0;
-}
-
-.breadcrumb>a{
-    display: inline-block;
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-left: 4rem;
-}
-
-.breadcrumb>a>img{
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-top: 2rem;
-}
-
-.breadcrumb>ul{
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: right;
-}
-
-header>.breadcrumb>ul{
-    display: inline-block;
-    width: 40%;
-    height: auto;
-    float: right;
-    margin-right: 5rem;
-}
-
-
-.breadcrumb>ul>li{
-    display: inline-block;
-    width: 35%;
-    height: auto;
-    margin-top: 3rem;
-    font-family: 'Poiret One', cursive;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-
-header>.breadcrumb>ul>li{
-    color: white;
-}
-
-.breadcrumb>ul>li:hover{
-    color: #d8d8d8;
-}
-
-.breadcrumb>ul>li.active{
+.navbar-brand>i:hover{
     color: grey;
 }
 
-main{
-    display: block;
-    width: 100%;
-    height: 100%;
+.navigation>li>a{
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2rem;
+    color: black;
 }
 
-.title{
-    display: block;
+.navigation>li>a:hover{
+    color: grey;
+}
+
+.navigation>li>a.active{
+    color: lightgrey;
+}
+
+.head-pic{
     width: 100%;
-    height: 20rem;
+    height: 30rem;
+}
+
+.row>.background{
+    width: 5%;
+    height: 25rem;
+    position: absolute;
+    z-index: -100;
+    background-color: #632866;
+    overflow: hidden;
+    padding: 0;
+}
+
+.bg-img{
+    width: 100%;
+}
+
+
+.row > .objects {
+    width: 30rem;
+    height: 25rem;
+    position: absolute;
+    margin-top: -600px;
+    right: 50%;
+    margin-right: -15rem;
+}
+
+.row > .background > .illustration {
+    display: inline-block;
+    position: absolute;
+    width: 30rem;
+    left: 10rem;
+    margin-top: 1.5rem;
+    text-align: right;
+}
+
+.row>.title{
+    width: 100%;
+    margin-top: 0.5rem;
     text-align: center;
-    padding-top: 10rem;
 }
 
-.title>h1{
-    display: block;
-    width: 100%;
-    height: auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 5rem;
-    font-weight: 400;
-}
-
-.title>h5{
-    display: block;
-    width: 100%;
-    height: auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+.row > .title > p {
+    color: black;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-size: 3rem;
 }
 
-.text{
+
+@media (min-width: 992px) {
+    .row > .objects {
+        width: 30rem;
+        height: auto;
+        position: absolute;
+        right: 10rem;
+        margin-top: -600px;
+        margin-right: 0;
+
+    }
+
+    .row > .background > .illustration {
+        display: inline-block;
+        position: absolute;
+        width: 30rem;
+        left: 10rem;
+        margin-top: 1.5rem;
+        text-align: right;
+    }
+
+    .row > .title {
+        position: absolute;
+        z-index: -100;
+        margin-left: 15rem;
+        left: 0;
+        top: 15rem;
+        text-align: left;
+    }
+
+    .row > .title > p {
+        color: white;
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 3rem;
+    }
+}
+
+.intro{
+    background-color: #F5F5F5;
     display: block;
     width: 100%;
-    height: 100%;
+    margin-top: -5rem;
+}
+
+.content-intro{
+    padding: 5rem;
+    padding-top: 0;
+}
+
+.intro-intro{
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro-intro>p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.intro-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.content-intro div{
+}
+
+.content-intro div:last-of-type{
+    padding-top: 6rem;
+}
+
+.content-intro h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.content-intro h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.main{
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+
+.content-main{
+    padding: 3rem;
+}
+
+.main-intro{
+    text-align: center;
+}
+
+.main-intro p{
+    margin-top: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.intro-num{
+    width: 3rem;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.main-content-img{
+    width: 35rem;
+}
+
+.main-content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.main-content h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.main:nth-last-of-type(2n){
     background-color: white;
 }
 
-.text-body{
-    display: inline-block;
-    width: 70%;
-    height: 100%;
-    text-align: left;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+.main:nth-last-of-type(2n+1){
+    background-color: #F5F5F5;
 }
 
-.text-body>section{
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 2rem;
-    overflow: hidden;
+.end{
 }
 
-.tags>ul{
-    display: block;
-    width: 100%;
-    height: 100%;
+.content-end{
+    padding: 5rem;
+}
+
+.end-intro{
     text-align: center;
-    font-size: 0;
-    background-color: red;
 }
 
-.tags>ul>li{
-    display: inline-block;
-    float: left;
-    width: 45%;
-    height: 7rem;
-    text-align: left;
-    margin-bottom: 1rem;
-    overflow: hidden;
-}
-
-.tags>ul>li:nth-of-type(2n+1){
-    margin-right: 2.5rem;
-}
-
-.tags>ul>li:nth-of-type(2n){
-    margin-left: 2.5rem;
-}
-
-.tags>ul>li h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    text-decoration: underline;
-}
-
-.tags>ul>li h6{
-    font-family: 'EB Garamond', serif;
-    font-size: 1.0rem;
-    margin-top: 0.3rem;
-}
-
-.skills>ul {
-    display: inline-block;
-    list-style: initial;
-    font-size: 0;
-}
-
-.skills>ul>li{
-    display: inline-block;
-    font-family: 'EB Garamond', serif;
-    font-size: 1rem;
-    margin-top: 0.2rem;
-}
-
-.chapter{
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 1rem;
-}
-
-.chapter>span:first-of-type{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 1.4rem;
-}
-
-.chapter>span:last-of-type{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-}
-
-.detail{
-    display: block;
-    width: 96.5%;
-    height: 100%;
-    float: right;
-}
-
-.detail>div{
-    margin-bottom: 3rem;
-}
-
-.detail h3{
-    display: block;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    margin-top: 0.8rem;
-}
-
-.detail h6{
-    display: block;
-    font-size: 1.1rem;
-    margin-top: 0.3rem;
-}
-
-.detail>ul{
-    margin-top: 0.3rem;
-}
-
-
-
-.questions-title{
-    margin-top: 1rem;
-}
-
-
-.journeymap{
-    width: 50rem;
-    height: auto;
-    display: block;
-    margin-top: 2rem;
-    overflow: hidden;
-}
-
-.journeymap>img{
-    display: inline-block;
-    width: 100%;
-    object-fit: contain;
-}
-
-.form1.persona li{
-    border: none;
-    box-shadow: 0.2rem 0.2rem 0.2rem #d8d8d8;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.form1.persona .form-img{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.form1.persona .img>img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-
-.form1.persona .form-main-top{
-    border: none;
-    padding-bottom: 0.2rem;
-    text-align: left;
-}
-
-.form1.persona .form-main-top>h6{
-    font-style: italic;
-}
-
-.form2.scenrios h4{
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 0.2rem;
-}
-
-.form2.scenrios h6{
-    font-style: normal;
-}
-
-.large-pic{
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.large-pic>img{
-    display: inline-block;
-    width: 50rem;
-    object-fit: contain;
-}
-
-.form2.usertesting .form-side{
-    width: 20rem;
-    padding: 1rem;
-}
-
-.form2.usertesting .form-main{
-    width: 24rem;
-    padding: 1rem;
-}
-
-.form2.usertesting .form-main>h6{
-    font-style: normal;
-}
-
-.form2.usertesting img{
+.UI-display>img{
     width: 15rem;
-    height: auto;
- }
-
-.conclusion{
-    display: block;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: #764778;
-    padding: 2rem 0;
 }
 
-.conclusion-text{
-    display: inline-block;
-    width: 70%;
-    height: auto;
-    text-align: left;
-}
-
-
-.conclusion-text>.chapter>span{
+.end-intro p{
+    margin-top: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     color: white;
-}
-
-.conclustion_detail_text{
-    display: inline-block;
-    width: 60%;
-    height: auto;
-    overflow: hidden;
-    color: white;
-    font-size: 1.3rem;
-    text-align: justify;
-}
-
-.conclusion_detail_image{
-    display: inline-block;
-    float: right;
-    width: 30%;
-    overflow: hidden;
-}
-
-.conclusion_detail_image>img{
-    width: 10rem;
-    object-fit: contain;
 }
 
 footer{
-    display: block;
-    width: 100%;
-    height: 4rem;
-    padding-bottom: 3rem;
-    background-color: white;
+    margin-top: 4rem;
+}
+footer>.navigation{
+    margin-left: 8rem;
+    margin-bottom: 5rem;
 }
 
-footer>.breadcrumb{
-    display: inline-block;
-    float: left;
-    margin-left: 5rem;
-}
-
-footer>.breadcrumb>ul{
-    text-align: left;
-}
-
-footer>.copyright{
+.copyright{
     display: inline-block;
     width: auto;
-    height: auto;
-    float: right;
-    margin-top: 3rem;
-    margin-right: 5rem;
+    height: 100%;
     font-size: 0.7rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
     font-family: 'Playfair Display', serif;
 }

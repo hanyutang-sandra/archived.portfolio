@@ -1,6 +1,13 @@
-.navigation{
-    margin-right: 10rem;
+.navigation-bar{
     margin-top: 3rem;
+}
+.navigation{
+    margin-right: 5rem;
+    background-color: transparent;
+}
+
+.navbar-brand>img{
+    margin-left: 5rem;
 }
 
 .navigation>li>a{
@@ -55,10 +62,10 @@
 }
 
 .projects{
-    margin-top: 3rem;
+    margin-top: 253px;
 }
 
-.col>div{
+.col-12>div{
     margin-top: 2rem;
 }
 
@@ -113,7 +120,7 @@
 .cover-content{
     display: inline-block;
     width: 50%;
-    text-align: left;
+    text-align: center;
 }
 
 .cover-content>h6{
@@ -124,6 +131,9 @@
     color: white;
 }
 
+footer{
+    margin-top: -13rem;
+}
 footer>.navigation{
     margin-left: 8rem;
     margin-bottom: 5rem;

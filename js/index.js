@@ -1,5 +1,13 @@
 $(document).ready(function(){
-//click button
+    setTimeout(blockEnter(), 300);
+
+    function blockEnter(){
+        anime({
+            targets: '.projects',
+            translateY: -250,
+            duration: 3000
+        });
+    }
 
 //type welcome
 var options = {

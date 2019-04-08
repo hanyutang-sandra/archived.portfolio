@@ -23,14 +23,19 @@
 
 
 <header>
-    <ul class="nav justify-content-end navigation">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Project</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </li>
-    </ul>
+    <nav class="navbar navigation-bar">
+        <a class="navbar-brand" href="#">
+            <img src="resources/index/logo.png" width="60" height="50" alt="Logo">
+        </a>
+        <ul class="nav justify-content-end navigation">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </nav>
 </header>
 
 
@@ -42,7 +47,40 @@
 
     <div class="projects container">
         <div class="row justify-content-around">
-            <div class="col">
+
+            <div class="col-12 col-lg-6">
+
+                <div class="card bg-dark" onclick="window.open('pages/grumblr.html', '_self')">
+                    <img src="resources/projects/grumblr/cover.png" class="card-img" alt="Grumblr">
+                    <div class="cover">
+                        <div class="cover-title">
+                            <h3>Grumblr</h3>
+                        </div>
+                        <hr class="cover-line" size="50">
+                        <div class="cover-content">
+                            <h6>A nano-blog web application made with Django for some easy and joyful communication.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-dark" onclick="window.open('pages/sunscreen.html', '_self')">
+                    <img src="resources/projects/sunscreen/cover.png" class="card-img" alt="How sunscreens work?">
+                    <div class="cover">
+                        <div class="cover-title">
+                            <h3>How sunscreens work?</h3>
+                        </div>
+                        <hr class="cover-line" size="50">
+                        <div class="cover-content">
+                            <h6>Learn how everyday objects work with interactive video and 'Jigsaw' mode online cooperative learning.</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-12 col-lg-6">
+
                 <div class="card bg-dark" onclick="window.open('pages/erudite.html', '_self')">
                     <img src="resources/projects/erudite/cover.png" class="card-img" alt="Erudite">
                     <div class="cover">
@@ -51,26 +89,11 @@
                         </div>
                         <hr class="cover-line" size="50">
                         <div class="cover-content">
-                            <h6>An appAn appAn appAn appAn appAn appAn appAn appAn appAn app</h6>
+                            <h6>An app for developing hobbies and making new friends.</h6>
                         </div>
                     </div>
                 </div>
 
-                <div class="card bg-dark" onclick="window.open('#', '_self')">
-                    <img src="resources/projects/hotpot/cover.png" class="card-img" alt="Hotpot Music">
-                    <div class="cover">
-                        <div class="cover-title">
-                            <h3>Hotpot Music</h3>
-                        </div>
-                        <hr class="cover-line" size="50">
-                        <div class="cover-content">
-                            <h6>An appAn appAn appAn appAn appAn appAn appAn appAn appAn app</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col">
                 <div class="card bg-dark" onclick="window.open('pages/atlantis.html', '_self')">
                     <img src="resources/projects/atlantis/cover.png" class="card-img" alt="Environmental display">
                     <div class="cover">
@@ -84,18 +107,6 @@
                     </div>
                 </div>
 
-                <div class="card bg-dark" onclick="window.open('#', '_self')">
-                    <img src="resources/projects/lines/cover.png" class="card-img" alt="Lines and lights">
-                    <div class="cover">
-                        <div class="cover-title">
-                            <h3>Lines & Lights</h3>
-                        </div>
-                        <hr class="cover-line" size="50">
-                        <div class="cover-content">
-                            <h6>An appAn appAn appAn appAn appAn appAn appAn appAn appAn app</h6>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
