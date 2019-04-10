@@ -21,7 +21,8 @@ function carousel1(){
     container.width((imgNum + 2) * imgWidth);
     container.css({left: -imgWidth});
 
-    $('#carousel1 .carousel-control i').css({top: imgHeight/3});
+    $('#carousel1 .carousel-control i').css({top: imgHeight/2.5});
+
 
     $('#carousel1 .left').click(function () {
         showPre('#carousel1')

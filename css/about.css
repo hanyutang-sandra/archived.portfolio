@@ -1,0 +1,79 @@
+html,body,main{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+.row{
+    width: 100%;
+}
+
+.row>.background{
+    width: 5%;
+    height: 25rem;
+    position: absolute;
+    z-index: -100;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 0;
+}
+
+.img{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+}
+
+.text{
+    text-align: left;
+    padding-top: 6rem;
+    padding-left: 3rem;
+}
+.text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+
+.text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.resume>a{
+    display: inline-block;
+    margin-top: 1rem;
+    border: 1px solid gray;
+    padding: 0.7rem 0.7rem;
+    border-radius: 4rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.resume>a:hover{
+    text-decoration: none !important;
+    background-color: gray;
+    color: white;
+    transition: linear 0.2s;
+}
+
+footer{
+    margin-top: 5rem;
+}
+
