@@ -14,12 +14,14 @@
     <script type="text/javascript" src="../js/jquery-v3.3.1.js"></script>
     <script type="text/javascript" src="../js/anime.js"></script>
     <script type="text/javascript" src="../js/pages.js"></script>
+    <script type="text/javascript" src="../js/carousel.js"></script>
 
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Poiret+One|Roboto:100,900|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/projects.css">
     <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/carousel.css">
 </head>
 <body>
 
@@ -99,575 +101,183 @@
                 </div>
                 <div class="main-content col-12">
                     <h3>Competitive Analysis</h3>
-                    <br>
                     <h6>To better ideate the new application, we conducted a competitive analysis of some of the major players in this domain</h6>
                     <br>
-                    <ul class="form1">
-                        <li>
-                            <div class="form-side">
-                                <div class="form-img">
-                                    <img src="../resources/projects/erudite/quora_icon.png" alt="Quora logo">
-                                </div>
-                                <div class="form-side-intro">
-                                    <h4>Quora</h4>
-                                    <h6>A Q&A platform for any topics with user comments and upvotes. Users have profiles that detail their expertise in topic areas. The AMA sessions are ablt to ping questions to real experts.</h6>
-                                </div>
+
+                    <div class="carousel" id="carousel1">
+                        <div class="carousel-main">
+                            <div class="carousel-container">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-1-1.png">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-1-2.png">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-1-3.png">
                             </div>
-                            <div class="form-main">
-                                <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Easy to search for questions asked in the past</h6></li>
-                                                <li><h6>Answers tend to be very detailed (motivated by upvotes)</h6></li>
-                                                <li><h6>Covers almost any topic</h6></li>
-                                            </ul>
-                                        </span>
-                                    <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>Answers tend to be top rated because they embed images and use good formatting, not necessary the best content-wise</h6></li>
-                                                <li><h6>Interactivity is limited, only back and forth in the comments section</h6></li>
-                                                <li><h6>No space for learning about procedures</h6></li>
-                                            </ul>
-                                        </span>
-                                </div>
-                                <div class="form-main-bottom">
-                                    <h4>Opportunity for differentiation</h4>
-                                    <h6>Quora has great personal touch, and wikiHow has the procedure-based learning, but neither have both. A good Q&A platform for learning skills will need to fuse the two features.</h6>
-                                </div>
+                        </div>
+                        <div class="carousel-control">
+                            <div class="pre">
+                                <i class="fas fa-caret-left left"></i>
                             </div>
-                        </li>
-                        <li>
-                            <div class="form-side">
-                                <div class="form-img">
-                                    <img src="../resources/projects/erudite/duolingo_icon.png" alt="Duolingo logo">
-                                </div>
-                                <div class="form-side-intro">
-                                    <h4>Duolingo</h4>
-                                    <h6>A language learning mobile application with placement tests and learning modules. It provides multiple languages and includes an encouragement system by record streaks</h6>
-                                </div>
+                            <div class="next">
+                                <i class="fas fa-caret-right right"></i>
                             </div>
-                            <div class="form-main">
-                                <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Very intuitive</h6></li>
-                                                <li><h6>Covers multiple languages and users are allowed to learn more than one at once</h6></li>
-                                                <li><h6>The streak motivates users to keep working</h6></li>
-                                                <li><h6>Users are not allowed to move on until pass tests</h6></li>
-                                            </ul>
-                                        </span>
-                                    <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>Only covers language learning</h6></li>
-                                                <li><h6>Language is something that you learn with practice but there's only so much practice on the app</h6></li>
-                                                <li><h6>Most language doesn't work for people who don't know English</h6></li>
-                                            </ul>
-                                        </span>
-                                </div>
-                                <div class="form-main-bottom">
-                                    <h4>Opportunity for differentiation</h4>
-                                    <h6>Duolingo has intuitive interactions that we could try to emulate. But its lack of fields it covers allows us to jump in and fill that gap with a Q&A app.</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="form-side">
-                                <div class="form-img">
-                                    <img src="../resources/projects/erudite/udemy_icon.png" alt="Quora logo">
-                                </div>
-                                <div class="form-side-intro">
-                                    <h4>Udemy</h4>
-                                    <h6>An online learning platform where users can learn all sorts of things. Users can also become instructors and post their own courses.</h6>
-                                </div>
-                            </div>
-                            <div class="form-main">
-                                <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Cheaper than platforms like Udacity or Coursera</h6></li>
-                                                <li><h6>Covers a lot of subjects</h6></li>
-                                            </ul>
-                                        </span>
-                                    <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>No quality guarantees. Courses are usually taught to a lot of students and not everyone is able to talk to the instructor or the teaching assistants.</h6></li>
-                                            </ul>
-                                        </span>
-                                </div>
-                                <div class="form-main-bottom">
-                                    <h4>Opportunity for differentiation</h4>
-                                    <h6>We can focus on connections between users or connections between users and instructors. </h6>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="main-content col-12">
                     <h3>User interviews</h3>
                     <br>
                     <h6>We also conducted user interviews about their preference of the products in this domain.</h6>
                     <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/r-2-1.png" style="margin-bottom: 2rem;">
+
+                    <div class="carousel" id="carousel2">
+                        <div class="carousel-main">
+                            <div class="carousel-container">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-2-2.png">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-2-3.png">
+                                <img class="carousel-img" src="../resources/projects/erudite/r-2-4.png">
+                            </div>
+                        </div>
+                        <div class="carousel-control">
+                            <div class="pre">
+                                <i class="fas fa-caret-left left"></i>
+                            </div>
+                            <div class="next">
+                                <i class="fas fa-caret-right right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
     </section>
 
-
-    <div class="text">
-        <div class="text-body">
-
-
-            <section>
-                <div class="chapter">
-                    <span>02.</span>
-                    <span>Research</span>
+    <section class="main">
+        <div class="container content-main">
+            <div class="row">
+                <div class="main-intro col-12">
+                    <img class="intro-num" src="../resources/index/three.png" alt="1">
+                    <p>Ideation</p>
                 </div>
-                <div class="detail">
-                    <div>
-                        <h3>Competitive Analysis</h3>
-                        <h6>To better ideate the new application, we conducted a competitive analysis of some of the major players in this domain</h6>
-                        <ul class="form1">
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/quora_icon.png" alt="Quora logo">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>Quora</h4>
-                                        <h6>A Q&A platform for any topics with user comments and upvotes. Users have profiles that detail their expertise in topic areas. The AMA sessions are ablt to ping questions to real experts.</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Easy to search for questions asked in the past</h6></li>
-                                                <li><h6>Answers tend to be very detailed (motivated by upvotes)</h6></li>
-                                                <li><h6>Covers almost any topic</h6></li>
-                                            </ul>
-                                        </span>
-                                        <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>Answers tend to be top rated because they embed images and use good formatting, not necessary the best content-wise</h6></li>
-                                                <li><h6>Interactivity is limited, only back and forth in the comments section</h6></li>
-                                                <li><h6>No space for learning about procedures</h6></li>
-                                            </ul>
-                                        </span>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h4>Opportunity for differentiation</h4>
-                                        <h6>Quora has great personal touch, and wikiHow has the procedure-based learning, but neither have both. A good Q&A platform for learning skills will need to fuse the two features.</h6>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/duolingo_icon.png" alt="Duolingo logo">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>Duolingo</h4>
-                                        <h6>A language learning mobile application with placement tests and learning modules. It provides multiple languages and includes an encouragement system by record streaks</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Very intuitive</h6></li>
-                                                <li><h6>Covers multiple languages and users are allowed to learn more than one at once</h6></li>
-                                                <li><h6>The streak motivates users to keep working</h6></li>
-                                                <li><h6>Users are not allowed to move on until pass tests</h6></li>
-                                            </ul>
-                                        </span>
-                                        <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>Only covers language learning</h6></li>
-                                                <li><h6>Language is something that you learn with practice but there's only so much practice on the app</h6></li>
-                                                <li><h6>Most language doesn't work for people who don't know English</h6></li>
-                                            </ul>
-                                        </span>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h4>Opportunity for differentiation</h4>
-                                        <h6>Duolingo has intuitive interactions that we could try to emulate. But its lack of fields it covers allows us to jump in and fill that gap with a Q&A app.</h6>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/udemy_icon.png" alt="Quora logo">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>Udemy</h4>
-                                        <h6>An online learning platform where users can learn all sorts of things. Users can also become instructors and post their own courses.</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <span>
-                                            <h4>Pros</h4>
-                                            <ul>
-                                                <li><h6>Cheaper than platforms like Udacity or Coursera</h6></li>
-                                                <li><h6>Covers a lot of subjects</h6></li>
-                                            </ul>
-                                        </span>
-                                        <span>
-                                            <h4>Cons</h4>
-                                            <ul>
-                                                <li><h6>No quality guarantees. Courses are usually taught to a lot of students and not everyone is able to talk to the instructor or the teaching assistants.</h6></li>
-                                            </ul>
-                                        </span>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h4>Opportunity for differentiation</h4>
-                                        <h6>We can focus on connections between users or connections between users and instructors. </h6>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3>User interviews</h3>
-                        <h6>We also conducted user interviews about their preference of the products in this domain</h6>
-                        <h4 class="questions-title">Questions</h4>
-                        <ul>
-                            <li><h6>What learning/education apps or websites do you use or have heard good things about?</h6></li>
-                            <li><h6>What are any subjects/hobbies that you know a lot about and would like to share your knowledge/tips/skill of? Conversely, what are any subjects/hobbies that you would like to learn more about?</h6></li>
-                            <li><h6>What kinds of features would you like to see on a community powered app that would allow you to connect with others to either learn from them or to share your skills with them?</h6></li>
-                        </ul>
-                        <ul class="form2">
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/interviewee1.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <ul>
-                                        <li><h6>"I use a Chinese translation app called Pleco to help me with my Chinese class. I think it is very helpful and I would highly recommend it to any beginners learning Chinese."</h6></li>
-                                        <li><h6>"I know a lot about certain video games. I also know a lot about other hands-on games such as pool and foosball. I would like to learn more about more active sports such as volleyball and soccer."</h6></li>
-                                        <li><h6>"I believe the best thing would be a char system that allows me to connect with others to talk about my passions and skills. I would also like a hang-out option that allows me to make plans with a group of other people that are interested in the same hobbies."</h6></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/interviewee2.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <ul>
-                                        <li><h6>"I have used coursera and duolingo. Heard good things about duolingo"</h6></li>
-                                        <li><h6>"I knew random stuff about Asian foods. And I would like to learn about board games"</h6></li>
-                                        <li><h6>"Being about to actually talk to or be friend with the people who teaches me skills really matters to me."</h6></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/interviewee3.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <ul>
-                                        <li><h6>"I use Leetcode. It seems like everybody around me is using it to practice coding skills."</h6></li>
-                                        <li><h6>"I actually don't know what I can share. But I would really like to learn Spanish."</h6></li>
-                                        <li><h6>"I think being able to ask questions is really critical to my learning. If I have questions about the learning content but there is no one to answer my question, I don't consider it effective learning."</h6></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="main-content col-12">
+                    <h3>Features</h3>
+                    <h6>Based on the results of the research, we ideated a list of possible features that are needed by the users to improve learning and communication.</h6>
+                    <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/i-1-1.png">
                 </div>
-            </section>
-
-            <section>
-                <div class="chapter">
-                    <span>03.</span>
-                    <span>Ideation</span>
+                <div class="main-content col-12">
+                    <h3>Customer Journey Map</h3>
+                    <h6>We created a customer journey map, mapping the experience of typical user using our app.</h6>
+                    <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/journeymap.png">
                 </div>
+                <div class="main-content col-12">
+                    <h3>User Personas</h3>
+                    <h6>We created three typical users of our app, in the roles of "Peer seeker", "Instructor", and "Learner".</h6>
+                    <br>
 
-                <div class="detail">
-                    <div>
-                        <h3>Features</h3>
-                        <h6>Based on the results of the research, we ideated a list of possible features that are needed by the users to improve learning and communication.</h6>
-
-                        <ul class="form3">
-                            <li>
-                                <h3>Discover hobbies</h3>
-                                <ul>
-                                    <li><h6>Categories</h6></li>
-                                    <li><h6>Number of people doing the hobby</h6></li>
-                                    <li><h6>Search hobbies</h6></li>
-                                    <li><h6>Filter users (by location, by similar interests, by skill level, by star rating)</h6></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Profile</h3>
-                                <ul>
-                                    <li><h6>User input/edit skill proficiencies & contact information</h6></li>
-                                    <li><h6>View profiles of others</h6></li>
-                                    <li><h6>Start rating & hot word display</h6></li>
-                                    <li><h6>Personal growth dashboard</h6></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>User interaction</h3>
-                                <ul>
-                                    <li><h6>Online chat</h6></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Review</h3>
-                                <ul>
-                                    <li><h6>Star ratings ('instructor', 'learner', 'peer')</h6></li>
-                                    <li><h6>Feedback from users who have interacted with</h6></li>
-                                    <li><h6>Hot words selection</h6></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3>Customer Journey Map</h3>
-                        <h6>We created a customer journey map, mapping the experience of typical user using our app.</h6>
-                        <div class="journeymap">
-                            <img src="../resources/projects/erudite/journeymap.png" alt="Customer Journey Map">
+                    <div class="carousel" id="carousel3">
+                        <div class="carousel-main">
+                            <div class="carousel-container">
+                                <img class="carousel-img" src="../resources/projects/erudite/i-2-1.jpg">
+                                <img class="carousel-img" src="../resources/projects/erudite/i-2-2.jpg">
+                                <img class="carousel-img" src="../resources/projects/erudite/i-2-3.jpg">
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <h3>User personas</h3>
-                        <h6>We created three typical users of our app, in the roles of "Peer seeker", "Instructor", and "Learner".</h6>
-                        <ul class="form1 persona">
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/johns.png" alt="John stamper">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>John Stamper</h4>
-                                        <h6>First-year grad student, MIIS program <br>
-                                            Enjoy playing guitar</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <h6>"To like and dislike the same thing, this is what makes a solid friend"</h6>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h6>John is a first-year graduate student at CMU majoring information system management. He’s an international student and it’s his first year in the USA. He has just stayed in Pittsburgh for 2 months and has not made many friends yet.
-                                            Despite a super busy study life, John really enjoys playing guitar. Every day he tried to find some time to practice. Practice makes perfect. 
-                                            Gradually he feels that practicing alone is quite boring and wishes to find a peer. He hopes his potential peer would live close to him so that they could meet and practice together. He also hopes his potential peer to have a similar level of playing skills so they would be able to learn from each other.
-                                            John not only wants a peer to practice guitar with and share the same interest with but also wants to make friends. He hopes that by liking the same thing, a solid friendship would be developed within.
-                                        </h6>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/jacky.png" alt="Jack Ye">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>Jack Ye</h4>
-                                        <h6>Senior student at UCSD, Business Administration major<br>
-                                            Bodybuilding Enthusiast</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <h6>"Sports make me strong and enjoy life."</h6>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h6>
-                                            Jack Ye is a senior studying Business Administration at the University of California, San Diego. In his free time, Jack enjoys weightlifting and spending a large amount of time in the gym. Unfortunately, none of his close friends work out. As a result, Jack is often in the gym alone. After years of weightlifting, Jack feels that he is capable of coaching a newcomer. However, he would only do something like this on occasion, because he already has a part-time job on campus. Also, Jack would be very excited if he was accompanied by a workout buddy during his time at the gym.
-                                        </h6>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <div class="form-img">
-                                        <img src="../resources/projects/erudite/jill.png" alt="Jill Jones">
-                                    </div>
-                                    <div class="form-side-intro">
-                                        <h4>Jill Jones</h4>
-                                        <h6>26-year-old foodie worked in the marketing field<br>
-                                            Enjoy traveling and experiencing culturesr</h6>
-                                    </div>
-                                </div>
-                                <div class="form-main">
-                                    <div class="form-main-top">
-                                        <h6>"I wish I could go over the world, see the people and cultures with my own eyes, and eat all the foods"</h6>
-                                    </div>
-                                    <div class="form-main-bottom">
-                                        <h6>
-                                            Jill has a “9 to 5” job, but still tries to find time to invest into her hobbies and friends. Jill is a foodie outside of work. She spends her spare time updating her food instagram and updating her bucket list of foods and restaurants she wants to try. Because her love of food traverses cultures, Jill has also discovered an interest in traveling. And because her love of food is so great, Jill has also realized that her sedentary lifestyle has been causing a few embarrassing moments of difficulty on the stairs up to her office. Jill is currently looking for a way she can continue to foster her love for discovering new foods and cultures along with exercising healthier lifestyle practices.
-                                        </h6>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3>Scenarios</h3>
-                        <h6>We created several typical scenarios where users can use our app. </h6>
-                        <ul class="form2 scenrios">
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/scenrio1.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <h4>Discover Hobby</h4>
-                                    <h6>Jill has just finished her spring semester, and is looking to pick up a new hobby for the summer. She isn’t sure what to go with, so she browses Erudite’s home page and looks through the list of featured hobbies. She finds yoga interesting, so she decides to pursue it and moves to find an instructor on the app.</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/scenrio2.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <h4>Share Knowledge</h4>
-                                    <h6>John is good at yoga and wants to share his interest with more people by offering online help and instructions. John registers an account on Erudite and fills in his skill level and contact information. Soon Jill contact him and asks him questions about yoga practicing. John is so happy that he’s sharing his interest and helping others.</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/scenrio3.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <h4>Anonymous Review</h4>
-                                    <h6>Jill meets up with John, who teaches her the basics moves of yoga. However, she felt that Jack was more concerned with getting his own workout in than helping to teach Jill. So Jill decides to go back on the app and selects her last meetup. She clicks on some select review words as generated by the app like “good at his craft” and “knowledgeable” and not words like “great teacher”. She also leaves a 3.5 star rating.</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/scenrio4.png" alt="Interviewee">
-                                </div>
-                                <div class="form-main">
-                                    <h4>Find Peer</h4>
-                                    <h6>Jack knows elementary french and is getting better at writing and reading but doesn’t get much practice with with speaking. Jack makes an account on Erudite and looks up French speakers of the same skill level as him. Soon enough people who are also elementary french speakers reach out to him and he is able to practice French with them.</h6>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="chapter">
-                    <span>04.</span>
-                    <span>Design</span>
-                </div>
-
-                <div class="detail">
-                    <div>
-                        <h3>Pencile Wireframes</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/p.png" alt="Pencile Wireframes">
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3>User Testing</h3>
-                        <h6>The users we tested with grasped the idea of our application relatively easily. No clarifying questions were asked about the purpose and intended audience of Erudite.</h6>
-                        <ul class="form2 usertesting">
-                            <li>
-                                <div class="form-side">
-                                    <img src="../resources/projects/erudite/process.jpeg" alt="Process">
-                                </div>
-                                <div class="form-main">
-                                    <h6><b>First task: </b>Add "French" as a skill to their profile</h6>
-                                    <h6><b>Finding: </b>Adding color to make the button pop out and easily find</h6>
-                                    <br>
-                                    <h6><b>Second task: </b>Look at their progress on skills</h6>
-                                    <h6><b>Finding: </b>Clear design guided users to move quickly</h6>
-                                    <br>
-                                    <h6><b>Third task: </b>Message their French instructor</h6>
-                                    <h6><b>Finding: </b>Adding the corresponding skill of the person in the chat list</h6>
-                                    <br>
-                                    <h6>Overall, we were pleased with our users’ ability to pick up the app and perform some basic and multi-step operations with relative ease. Incorporating their feedback into a higher fidelity wireframe with color should improve the usability of our prototype.</h6>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3>Black and White Wireframes</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/b.png" alt="Black and White Wireframes">
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3>Mood Board</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/md.png" alt="Mood Board">
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3>Style Guide</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/md1.png" alt="Style Guide">
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3>Color Wireframes</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/c.png" alt="Color Wireframes">
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3>Application Workflow</h3>
-                        <div class="large-pic">
-                            <img src="../resources/projects/erudite/fl.png" alt="Application Workflow">
+                        <div class="carousel-control">
+                            <div class="pre">
+                                <i class="fas fa-caret-left left"></i>
+                            </div>
+                            <div class="next">
+                                <i class="fas fa-caret-right right"></i>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-            </section>
-        </div>
-
-        <div class="conclusion">
-            <div class="conclusion-text">
-                <div class="chapter">
-                    <span>05.</span>
-                    <span>Conclusion</span>
-                </div>
-                <div class="detail">
-                    <span class="conclustion_detail_text">Erudite, a P2P mobile application that allows users to teach or pursue skills with like-minded people. Users, who may act as learners, instructors, or peers, can leverage the platform to connect with each other. Whether a world traveler or a college student, Erudite is the perfect platform for engaging in a skill and meeting interesting people.</span>
-                    <span class="conclusion_detail_image">
-                        <img src="../resources/projects/erudite/erudite.gif" alt="Conclusion-image">
-                    </span>
+                <div class="main-content col-12">
+                    <h3>Scenarios</h3>
+                    <h6>We created several typical scenarios where users can use our app. </h6>
+                    <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/i-3-1.png">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="main">
+        <div class="container content-main">
+            <div class="row">
+                <div class="main-intro col-12">
+                    <img class="intro-num" src="../resources/index/four.png" alt="1">
+                    <p>Design</p>
+                </div>
+                <div class="main-content col-12">
+                    <h3>Pencile Wireframes</h3>
+                    <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/p.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>User Testing</h3>
+                    <h6 style="text-align: left;">The users we tested with grasped the idea of our application relatively easily. No clarifying questions were asked about the purpose and intended audience of Erudite.</h6>
+                    <br>
+                    <img class="main-content-img" src="../resources/projects/erudite/d-1-1.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>Black and White Wireframes</h3>
+                    <img class="main-content-img" src="../resources/projects/erudite/b.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>Mood Board</h3>
+                    <img class="main-content-img" src="../resources/projects/erudite/md.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>Style Guide</h3>
+                    <img class="main-content-img" src="../resources/projects/erudite/md1.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>Color Wireframes</h3>
+                    <img class="main-content-img" src="../resources/projects/erudite/c.png">
+                </div>
+                <div class="main-content col-12">
+                    <h3>Application Workflow</h3>
+                    <img class="main-content-img" src="../resources/projects/erudite/fl.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="end" style="background-color: #632866; height: 55rem;">
+        <div class="container content-end">
+            <div class="row">
+                <div class="end-intro col-12">
+                    <img class="intro-num" src="../resources/projects/erudite/conclusion.png">
+                    <p>Here is Erudite</p>
+                </div>
+                <div class="main-content col-12">
+                    <h6 style="color: white; text-align: left;">Erudite, a P2P mobile application that allows users to teach or pursue skills with like-minded people. Users, who may act as learners, instructors, or peers, can leverage the platform to connect with each other. Whether a world traveler or a college student, Erudite is the perfect platform for engaging in a skill and meeting interesting people.</h6>
+                </div>
+                <span class="UI-display col-12">
+                     <img src="../resources/projects/erudite/erudite.gif">
+                </span>
+            </div>
+        </div>
+    </section>
 
 </main>
 
 <footer>
-    <div class="breadcrumb">
-        <ul>
-            <li>Projects</li>
-            <li>About</li>
-        </ul>
-    </div>
-    <span class="copyright">&#169;2019 by Hanyu Tang. All rights reserved.</span>
+    <ul class="nav navigation">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Project</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item copyright">&#169;2019 by Hanyu Tang. All rights reserved.</li>
+    </ul>
 </footer>
 
 

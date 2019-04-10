@@ -153,7 +153,7 @@
 }
 
 .content-intro div:last-of-type{
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 .content-intro h3{
@@ -169,7 +169,6 @@
 }
 
 .main{
-    background-color: white;
     display: block;
     width: 100%;
 }
@@ -194,12 +193,21 @@
     width: 3rem;
 }
 
+.main:nth-of-type(2n){
+    background-color: white;
+}
+
+.main:nth-of-type(2n+1){
+    background-color: #F5F5F5;
+}
+
 .main-content{
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .main-content-img{
-    width: 35rem;
+    width: 40rem;
 }
 
 .main-content h3{
@@ -212,17 +220,19 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
-.main:nth-last-of-type(2n){
-    background-color: white;
-}
-
-.main:nth-last-of-type(2n+1){
-    background-color: #F5F5F5;
-}
 
 .end{
+    width: 100%;
+    height: 25rem;
+}
+
+.end>img{
+    height: 25rem;
+    position: absolute;
+    z-index: -100;
 }
 
 .content-end{
@@ -233,6 +243,14 @@
     text-align: center;
 }
 
+.end-content{
+    text-align: center;
+}
+
+.UI-display{
+    text-align: center;
+
+}
 .UI-display>img{
     width: 15rem;
 }
