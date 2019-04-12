@@ -17,19 +17,14 @@ html,body,main{
 .main{
     width: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 .row{
     width: 100%;
-}
-
-.row>.background{
-    width: 5%;
-    height: 25rem;
-    position: absolute;
-    z-index: -100;
-    background-color: #F5F5F5;
-    overflow: hidden;
+    margin: 0;
     padding: 0;
+    background-color: #F5F5F5;
 }
 
 .img{
@@ -47,6 +42,7 @@ html,body,main{
     text-align: left;
     padding-top: 6rem;
     padding-left: 3rem;
+    opacity: 0;
 }
 .text h3{
     font-family: 'Open Sans', sans-serif;
@@ -68,6 +64,7 @@ html,body,main{
 .resume>a{
     display: inline-block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid gray;
     padding: 0.7rem 0.7rem;
     border-radius: 4rem;
@@ -85,6 +82,7 @@ html,body,main{
 }
 
 footer{
-    margin-top: 5rem;
+    position: absolute;
+    bottom: 3rem;
 }
 

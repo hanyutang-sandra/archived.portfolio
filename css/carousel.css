@@ -2,14 +2,8 @@
     width: 100%;
     height: auto;
     text-align: center;
-    opacity: 1;
-    transition: 1s opacity;
 }
 
-.carousel.load{
-    opacity: 0;
-    transition: none;
-}
 
 .carousel-main{
     display: inline-block;
@@ -53,9 +47,6 @@
     top: 40%;
 }
 
-#carousel2 i{
-    top: 20%;
-}
 
 .carousel-control i:hover{
     color: #d8d8d8;
