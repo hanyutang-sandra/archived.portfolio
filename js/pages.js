@@ -1,5 +1,19 @@
 $(document).ready(function(){
+    $(function() {
+        $('body').removeClass('fade-out');
+    });
+
     setTimeout(headerEnter(), 300);
+
+    $('.lazy').Lazy({
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        effectTime: 1000,
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
+    });
 
     function headerEnter(){
         anime.timeline({loop: false})

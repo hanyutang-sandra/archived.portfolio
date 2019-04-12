@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $(function() {
+        $('body').removeClass('fade-out');
+    });
+
     setTimeout(blockEnter(), 300);
 
     function blockEnter(){

@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $(function() {
+        $('body').removeClass('fade-out');
+    });
 
     let height = $('.img').height();
     $('.background').css({height: height})
