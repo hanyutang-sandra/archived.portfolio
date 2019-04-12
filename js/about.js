@@ -4,7 +4,8 @@ $(document).ready(function(){
     });
 
     let height = $('.img').height();
-    $('.background').css({height: height})
+    $('.background').css({height: height});
+    $('#display').removeClass('load');
 
     setTimeout(headerEnter(), 300);
 

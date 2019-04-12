@@ -2,6 +2,13 @@
     width: 100%;
     height: auto;
     text-align: center;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+.carousel.load{
+    opacity: 0;
+    transition: none;
 }
 
 .carousel-main{
