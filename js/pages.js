@@ -3,7 +3,10 @@ $(document).ready(function(){
         $('body').removeClass('fade-out');
     });
 
-    setTimeout(headerEnter(), 300);
+    if($('.objects').src !== "" && $('.illustration').src !== ""){
+        setTimeout(headerEnter(), 300);
+    }
+
 
     $('.lazy').Lazy({
         scrollDirection: 'vertical',
@@ -20,6 +23,13 @@ $(document).ready(function(){
             .add({
                 targets: '.background',
                 width: '100%',
+                easing: 'easeInOutQuad',
+                direction: 'alternate',
+            })
+            .add({
+                targets: '.bg-img',
+                opacity: '1',
+                duration: 500,
                 easing: 'easeInOutQuad',
                 direction: 'alternate',
             })

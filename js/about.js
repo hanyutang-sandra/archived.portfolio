@@ -5,7 +5,6 @@ $(document).ready(function(){
 
     let height = $('.img').height();
     $('.background').css({height: height});
-    $('#display').removeClass('load');
 
     setTimeout(headerEnter(), 300);
 
@@ -14,6 +13,12 @@ $(document).ready(function(){
             .add({
                 targets: '.background',
                 width: '100%',
+                easing: 'easeInOutQuad',
+                direction: 'alternate',
+            })
+            .add({
+                targets: '.photo',
+                opacity: '1',
                 easing: 'easeInOutQuad',
                 direction: 'alternate',
             })

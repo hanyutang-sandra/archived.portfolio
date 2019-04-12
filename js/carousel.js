@@ -21,9 +21,8 @@ function carousel1(){
     container.width((imgNum + 2) * imgWidth);
     container.css({left: -imgWidth});
 
-    $('#carousel1 .carousel-control i').css({top: imgHeight/2.5});
+    //$('#carousel1 .carousel-control i').css({top: imgHeight/2.5});
 
-    $('#carousel1').removeClass('load');
 
     $('#carousel1 .left').click(function () {
         showPre('#carousel1')
@@ -84,8 +83,8 @@ function carousel2(){
     container.css({left: -imgWidth});
 
 
-    $('#carousel2 .carousel-control i').css({top: imgHeight/3});
-    $('#carousel2').removeClass('load');
+    //$('#carousel2 .carousel-control i').css({top: imgHeight/3});
+
 
     $('#carousel2 .left').click(function () {
         showPre('#carousel2')
@@ -145,8 +144,7 @@ function carousel3(){
     container.width((imgNum + 2) * imgWidth);
     container.css({left: -imgWidth});
 
-    $('#carousel3 .carousel-control i').css({top: imgHeight/2});
-    $('#carousel3').removeClass('load');
+    //$('#carousel3 .carousel-control i').css({top: imgHeight/2});
 
     $('#carousel3 .left').click(function () {
         showPre('#carousel3')
@@ -206,8 +204,8 @@ function carousel4(){
     container.width((imgNum + 2) * imgWidth);
     container.css({left: -imgWidth});
 
-    $('#carousel4 .carousel-control i').css({top: imgHeight/2});
-    $('#carousel4').removeClass('load');
+    //$('#carousel4 .carousel-control i').css({top: imgHeight/2});
+
 
     $('#carousel4 .left').click(function () {
         showPre('#carousel4')

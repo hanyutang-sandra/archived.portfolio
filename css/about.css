@@ -22,16 +22,6 @@ html,body,main{
     width: 100%;
 }
 
-#display{
-    opacity: 1;
-    transition: 1s opacity;
-}
-
-#display.load{
-    opacity: 0;
-    transition: 0;
-}
-
 .row>.background{
     width: 5%;
     height: 25rem;
@@ -50,6 +40,7 @@ html,body,main{
 
 .img img{
     width: 100%;
+    opacity: 0;
 }
 
 .text{
