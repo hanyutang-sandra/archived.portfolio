@@ -38,12 +38,40 @@ html,body,main{
     opacity: 0;
 }
 
-.text{
+.text {
     text-align: left;
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-left: 3rem;
     opacity: 0;
 }
+
+@media (min-width: 992px){
+    .text{
+        text-align: left;
+        padding-top: 6rem;
+        padding-left: 3rem;
+        opacity: 0;
+    }
+
+    .text h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: left;
+
+    }
+
+
+    .text h6{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+
+}
+
 .text h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -61,10 +89,32 @@ html,body,main{
     text-align: left;
 }
 
+@media (min-width: 992px){
+    .resume>a{
+        display: inline-block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid gray;
+        padding: 0.7rem 0.7rem;
+        border-radius: 4rem;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    .resume>a:hover{
+        text-decoration: none !important;
+        background-color: gray;
+        color: white;
+        transition: linear 0.2s;
+    }
+}
+
 .resume>a{
     display: inline-block;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     border: 1px solid gray;
     padding: 0.7rem 0.7rem;
     border-radius: 4rem;
@@ -81,8 +131,16 @@ html,body,main{
     transition: linear 0.2s;
 }
 
-footer{
-    position: absolute;
-    bottom: 3rem;
+
+@media (min-width: 992px){
+    footer{
+        position: absolute;
+        bottom: 3rem;
+    }
 }
+
+footer{
+    margin-top: 2rem;
+}
+
 
