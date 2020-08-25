@@ -16,8 +16,9 @@ $(document).ready(function(){
 //type welcome
 var options = {
     strings: ["Hey there", "Welcome to my portfolio",
-        "I'm a frontend developer with a unique background",
-        "I explore the convergence among technology, design, and humanity"],
+        "I'm a software engineer@Yelp double duty in web fullstack and mobile backend",
+        "This website is super old and currently under maintainence",
+        "Check back later for more up-to-date content"],
     typeSpeed: 60,
     loop: true,
     loopCount: Infinity,
